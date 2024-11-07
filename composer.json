@@ -1,0 +1,22 @@
+{
+    "name": "mavlitov98/model-generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruslan"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ModelGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "lstrojny/functional-php": "^1.17",
+        "symfony/console": "^5.4"
+    }
+}
